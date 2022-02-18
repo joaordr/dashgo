@@ -7,8 +7,6 @@ export function SearchBox() {
 
     const searchInputRef = useRef<HTMLInputElement>(null);
 
-    console.log(searchInputRef.current.value);
-
     return (
         <Flex
             as="label"
